@@ -1,0 +1,32 @@
+{
+    "roles": {
+        "admin-role": {
+            "permissions": [
+                "all"
+            ],
+            "authorized_labels": [
+                "*"
+            ]
+        },
+        "doctor-role": {
+            "permissions": [
+                "view",
+                "download",
+                "share",
+                "send"
+            ],
+            "authorized_labels": [
+                "*"
+            ]
+        },
+        "external-role": {
+            "permissions": [
+                "view",
+                "download"
+            ],
+            "authorized_labels": [
+                "external"
+            ]
+        }
+    }
+}
